@@ -2,7 +2,7 @@ export class Uchiha {
 
 	/** POO
 	 * instance:objeto cujo comportamento e estado são definidos pela classe
-	 * static: precisa de uma instância da classe para poder acessar
+	 * static: atributos da classe
 	 * constructor: define ações que devem ser executadas quando instanciar o objeto
 	*/
 
@@ -23,8 +23,9 @@ export class Uchiha {
 	}
 
 	// business logic
-	public main(): any {
-		let uchiha = console.log('» Clã Fundador Uchiha criado.');
+	public getName(): string {
+		let uchiha = '» Clã Fundador Uchiha criado.'
+		console.log(uchiha);
 		return uchiha;
 	}
 }
